@@ -9,7 +9,7 @@
 //   matrix.cpp
 
 
-#include "h.h"
+#include "matrix.h"
 
 Matrix::Matrix(int r, int c):rowsM(r), colsM(c)
 {
