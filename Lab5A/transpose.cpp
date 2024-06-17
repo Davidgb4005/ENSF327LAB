@@ -1,5 +1,11 @@
-// ENSF 337 - Lab 5  - exercise A
-// lab5ExA.cpp
+
+/*
+* File Name: lab5ExA.cpp
+* Assignment: ENSF 337 - Lab 5  - exercise A
+* Lab section: Summer
+* Completed by: David Burgoin
+* Development Date: May 31/2024
+*/
 
 #include<vector>
 #include<string>
