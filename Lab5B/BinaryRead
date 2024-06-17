@@ -67,7 +67,7 @@ void print_from_binary(char* filename) {
     int file_size = stream.tellg();
     int cities_in_file = file_size/sizeof(City);
     char * buffer = new char [sizeof(City)];
-    City cities[cities_in_file];
+    City * cities = new City[cities_in_file];
     stream.seekg (std::ios::beg);
 
     
@@ -78,6 +78,8 @@ void print_from_binary(char* filename) {
         std::cout<<"Name :"<<cities[i].name<<", X coordinate : "<<cities[i].x<<" ,Y coordinate : "<<cities[i].y<< std::endl;
         }
     stream.close();
+    delete[] buffer;
+    //delete [] cities;
 }
 
 
